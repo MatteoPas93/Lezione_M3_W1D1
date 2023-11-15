@@ -1,74 +1,72 @@
 /* Esercizio n°1 */
 
 .px-0 h1:nth-of-type(1) {
-    color: rgb(255, 234, 0);
+  color: rgb(255, 234, 0);
 }
 
 /* Esercizio n°2 */
 
-.nav :nth-child(even), .nav :nth-child(odd) {
-   color: rgb(72, 255, 0);
+.nav:first-of-type span {
+  color: rgb(108, 255, 78);
 }
 
 /* Esercizio n°3 */
 
 .jumbotron a:first-of-type {
-    color: rgb(255, 0, 174);
+  color: rgb(255, 0, 174);
 }
 
 /* Esercizio n°4 */
 
 .blog-main .blog-post:first-of-type {
-    border: 3px solid blue;
+  border: 3px solid blue;
 }
 
-/* Esercizio n°5 * ------- */
+/* Esercizio n°5 */
 
- .blog-post:first-of-type hr {
-    border-top-color: red;
+.blog-post:first-of-type hr {
+  border-top-color: red;
 }
 
 /* Esercizio n°6 */
 
-.nav :nth-child(odd) {
-    color: brown;
+.nav span:nth-child(odd) {
+  color: brown;
 }
 
-/* Esercizio n°7 --------- */ 
+/* Esercizio n°7 */
 
-.blog-sidebar .p-4:nth-child(2) ol:first-of-type li a  {
-    color: red;
+.blog-sidebar .p-4:nth-child(2) ol:first-of-type li a {
+  color: red;
 }
 
 /* Esercizio n°8 */
 
 .blog-main .blog-post:nth-of-type(2) p:nth-of-type(1) a {
-    color: rgb(255, 0, 128);
-    border: 3px solid pink;
+  color: rgb(255, 0, 128);
+  border: 3px solid pink;
 }
 
 /* Esercizio n°9 */
 
 .blog-main .blog-post:nth-of-type(3) li:nth-of-type(2) {
-    color: rgb(140, 255, 0);
+  color: rgb(140, 255, 0);
 }
 
 /* Esercizio n°10 */
 
 body .mr-3:last-of-type {
-    
-    border:5px solid rgb(0, 242, 255);
+  border: 5px solid rgb(0, 242, 255);
 }
 
 /* Esercizio n°11 */
 
 .blog-main .blog-pagination:nth-of-type(1) a:last-of-type {
-    color: red;
+  color: red;
 }
 
 /* Esercizio n°12 */
 
-.blog-footer a:nth-of-type(2){
-    border:5px solid red;
-  }
-  
+.blog-footer a:nth-of-type(2) {
+  border: 5px solid red;
+}
