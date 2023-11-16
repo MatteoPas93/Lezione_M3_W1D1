@@ -19,17 +19,24 @@ const link = document.querySelector(
 );
 
 link.addEventListener("click", function () {
-  linkForElimination.parentNode.removeChild(linkForElimination);
+   linkForElimination.parentNode.parentNode.remove(linkForElimination)
+  
 });
+
+
+// link.addEventListener("click", function() {
+//   linkForElimination.closest(".col-md-6").remove()
+// })
 
 //    Esercizio n°3
 
-function alertName(ev) {
+const alertName = function (ev) {
   let author = ev.target.innerText;
   alert(`Author: ${author}`);
 }
 
-let authorName = document.querySelectorAll(".blog-post-meta a");
-authorName.forEach(function (name) {
-  name.addEventListener("mouseover", alertName);
-});
+let authorName = document.querySelectorAll(".blog-post-meta a")
+for (let i = 0; i < authorName.length; i++) {
+  authorName[i].addEventListener("mouseover", alertName)
+}
+
